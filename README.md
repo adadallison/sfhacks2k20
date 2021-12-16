@@ -4,6 +4,6 @@ SFHacks Original Website Design
 IDE: IntelliJ
 
 Instructions for Launching:
-Download and unzip files.
+Download ZIP and unzip files.
 Open "index.html" folder with any browser. 
 There is no need to run the code since it is just basic HTML and was previously launched using github.
