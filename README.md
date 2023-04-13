@@ -1,9 +1,1 @@
-# sfhacks2k20.github.io
-SFHacks Original Website Design
-
-IDE: IntelliJ
-
-Instructions for Launching:
-Download ZIP and unzip files.
-Open "index.html" folder with any browser. 
-There is no need to run the code since it is just basic HTML and was previously launched using github.
+Launch by going to https://adadallison.github.io/sfhacks2k20/
