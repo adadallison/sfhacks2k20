@@ -211,6 +211,7 @@ h1{
   color:#de6954;
   font-size: 5vw;
   font-weight: 700;
+
 }
 
 .about{
@@ -218,12 +219,12 @@ h1{
  }
 
 .aboutp{
-  line-height: .8in;
+  line-height: 4.7vw;
   font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   font-size: 2vw;
   font-weight: bold;
   color: white;
-  padding: 55px;
+  padding: 3vw;
 }
 
 .sponsors{
