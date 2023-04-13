@@ -1,31 +1,25 @@
 .navbar{
   list-style-type: none;
-  margin: 0;
-  padding: 4px;
+  padding: 10px;
   background-color: clear;
 }
 
 .navbar-nav{
-  padding-left: 295px;
+  padding-left: .9in;
 }
-
-.navbar-font{
-  margin-top: -1%;
-  font-size: 35px;
-  font-weight: bolder;
-  font-family: inherit;
-}
-
 
 .centered-text{
   text-align: center;
-
 }
 
 .nav-center{
-  margin-right: 1in;
+  margin-right: 3in;
 }
 
+.nav-item{
+  font-size: 20px;
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
 
 
 /*NAV BAR*/
@@ -34,10 +28,8 @@
   background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
 }
 
-
-
 .bootstrap-container{
-  height: 120vh;
+  height: 100vh;
 }
 
 .website-title{
@@ -61,17 +53,7 @@
   position: center;
   height: 230px;
   width: 230px;
-  padding: 1rem
-
-}
-
-
-.nav-marg{
-   margin-top: -93px;
- }
-
-.nav-marg2{
-  margin-top: -40px;
+  margin-top: 0in;
 }
 
 /*.title{
@@ -86,11 +68,11 @@
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-  max-width: 48rem;
+  max-width: 200vh;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  height: 100vh;
+  height: 90vh;
   margin-bottom: auto ;
   padding: .7in;
   overflow: hidden;
@@ -100,37 +82,42 @@
 h1{
   font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   color:#de6954;
-  font-size: 8vw;
+  font-size: 7vw;
   font-weight: bold;
+  margin: 8px;
 }
 
 .place{
   font-family: "Helvetica Neue";
-  letter-spacing: .28em;
+  letter-spacing: .12em;
   line-height: 1.25;
   text-transform: uppercase;
   color: white;
-  margin-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 1.5vw;
+  font-weight: 200;
 }
 
 .date{
   font-family: "Helvetica Neue";
-  letter-spacing: .25em;
+  letter-spacing: .20em;
   line-height: 1.15;
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 2vw;
 }
 
 
 /*This is coded CSS rainbow*/
 
-.rainbow:hover {
+/* .rainbow:hover  */
+.rainbow {
   -webkit-animation:rainbow 1s infinite;
   -ms-animation:rainbow 1s infinite;
   -o-animation:rainbow 1s infinite;
-  animation:rainbow 1s infinite;
+  animation:rainbow 3s infinite;
 }
 @-webkit-keyframes rainbow {
   0% {color: #ff0000;}
@@ -187,7 +174,7 @@ h1{
 
 .button{
   border-radius: 28px;
-  border-size: 6px;
+  border-width: 5px;
   border-color: #de6954;
   background: transparent;
   color: white;
@@ -209,7 +196,7 @@ h1{
   top: 0;
   left: 0;
   background-attachment: fixed;
-  opacity: .4 ;
+  opacity: .2 ;
   background-size: 100%;
   background-repeat: no-repeat;
   object-fit:cover;
@@ -224,25 +211,20 @@ h1{
   color:#de6954;
   font-size: 5vw;
   font-weight: 700;
-  margin-top: 30px;
 
 }
 
 .about{
-   overflow-x: scroll;
-  margin-top: 90px;
+   text-align: center;
  }
 
 .aboutp{
-  width: 100%;
-  height: 40vh;
-  line-height: .4in;
+  line-height: .8in;
   font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: bold;
   color: white;
-  text-align: justify-all;
-
+  padding: 55px;
 }
 
 .sponsors{
@@ -338,27 +320,46 @@ section {
 
 /* FAQ */
 
+.faqh1{
+  text-align: center;
+  font-size: 5vw;
+  margin: 15px;
+}
+
+.flex-box{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .faqcontainer {
   position: relative;
-  width: 50%;
+  border-width: 1.7px;
+  border-style: solid;
+  margin: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1.2px;
+  background-color: whitesmoke;
+
+  height: 16vw;
+  width: 27vw;
+
+  border-style: solid;
+  border-color: #de6954  ;
 }
 
-.faqimage {
-  display: block;
-  width: 75%;
-  height: auto;
-  margin: 15px;
-
-}
 
 .overlay {
   position: relative;
-  height: 95%;
-  width: 80%;
+  height: 16vw;
+  width: 27vw;
   opacity: 0;
-  transition: .9s ease;
+  transition: .7s ease;
   background-color: #de6954;
-font-family: Courier;
+  font-family: Courier;
   color: #de6954;
 }
 
@@ -368,45 +369,33 @@ font-family: Courier;
 
 .faqtext {
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: 400;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   text-align: center;
+  padding: 30px;
 }
 
-.faqflex{
-  position: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  max-width: 66rem;
-  margin: auto;
-  height: 90vh;
-  overflow-x: scroll;
-}
-
-.faqh1{
-  text-align: center;
-  font-size: 5vw;
-  margin: 30px;
-}
 
 .ques{
   position: absolute;
-  border-style: solid;
-  border-color: white;
-  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;;
-  display: block;
-  height: 95%;
-  width: 80%;
-  color:  white;
-  font-size: 19px;
-  font-weight: 700;
+  /* border-style: solid;
+  border-color: de6954; */
+  font-family: Galano,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  /* height: 95%;
+  width: 80%; */
+  color: #de6954;
+  font-size: 1.34vw;
+  font-weight: 300;
   text-align: center;
+
+  /* padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1.2px;
+  color: #de6954; */
+
+  text-transform: uppercase;
 
 }
